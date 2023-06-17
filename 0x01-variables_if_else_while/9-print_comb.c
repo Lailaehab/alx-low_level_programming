@@ -11,8 +11,7 @@ int main(void)
 	for (n = 0; n <= 8; n++)
 	{
 		putchar(n);
-		putchar(',');
-		putchar(' ');
+		putchar(', ');
 	}
 
 	putchar('9');
