@@ -3,6 +3,7 @@
 /**
  * print_diagonal - prints diagonal
  * @n : number of times \ should be printed
+ * Return: empty
  */
 void print_diagonal(int n)
 {
