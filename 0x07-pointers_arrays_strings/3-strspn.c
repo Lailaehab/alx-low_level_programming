@@ -4,7 +4,7 @@
  * _strspn - fgh
  * @s: gh
  * @accept: m
- * Return : Always 0
+ * Return: unsigned int
  */
 unsigned int _strspn(char *s, char *accept)
 {
