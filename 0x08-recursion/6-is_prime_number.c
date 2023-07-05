@@ -14,9 +14,9 @@ int is_prime_number(int n)
 
 /**
  * check_prime - fghj
- * @n: fghj
- * @oth: fgghj
- * Return: fghj
+ * @n: int
+ * @oth: int
+ * Return: int
  */
 int check_prime(int n, int oth)
 {
