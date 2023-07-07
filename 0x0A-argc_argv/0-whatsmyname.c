@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - hjd
- * @argc: ghjk
- * @argv: fghjk
- * Return: 0
+ * main - prints its name
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: Always zero
  */
 
 int main(int argc, char const *argv[])
