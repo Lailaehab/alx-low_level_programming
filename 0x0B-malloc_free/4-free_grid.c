@@ -3,7 +3,7 @@
 /**
  * free_grid - fghj
  * @grid: ghj
- * @height: ghj
+ * @height: ghjkl
  * Return: ghj
  */
 void free_grid(int **grid, int height)
@@ -12,5 +12,5 @@ void free_grid(int **grid, int height)
 
 	for (; i < height; i++)
 		free(grid[i]);
-	free{grid};
+	free(grid);
 }
