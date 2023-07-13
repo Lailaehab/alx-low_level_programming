@@ -42,16 +42,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		m = malloc(j + i + 1);
 		if (m == 0)
 			return (NULL);
-		for (x = 0; *s1 != '\0'; s1++, x++)
-		{
-			m[y] = s1[x];
-			y++;
-		}
-		for (w = 0; *s2 != '\0'; s2++, w++)
-		{
-			m[y] = s2[w];
-			y++;
-		}
+		for (x = 0; s1[x] != '\0'; x++)
+			m[x] = s1[x];
+		for (w = 0; s2[w] != '\0'; w++)
+			m[X] = s2[w];
 		return (m);
 	}
 }
