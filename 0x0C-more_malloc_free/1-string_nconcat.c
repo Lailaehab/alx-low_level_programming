@@ -39,7 +39,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	else
 	{
-		m = malloc(j + n + 1);
+		m = malloc(j + i + 1);
 		if (m == 0)
 			return (NULL);
 		for (x = 0; *s1 != '\0'; s1++, x++)
