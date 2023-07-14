@@ -9,7 +9,7 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int i = 0, j = 0, x, y = 0, w;
+	int i = 0, j = 0, x, w;
 	char *m;
 
 	if (s1 == NULL)
@@ -30,6 +30,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		m[x] = s2[w];
 		x++;
 	}
-	str[i] = '\0';
+	str[x] = '\0';
 	return (m);
 }
