@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib>
 /**
  * string_nconcat - ghj
  * @s1: ghj
@@ -30,6 +30,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		m[x] = s2[w];
 		x++;
 	}
-	str[x] = '\0';
+	m[x] = '\0';
 	return (m);
 }
