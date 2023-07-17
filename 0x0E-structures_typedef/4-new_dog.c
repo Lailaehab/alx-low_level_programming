@@ -1,5 +1,5 @@
-#include "dog.h"
 #include <stdlib.h>
+#include "dog.h"
 
 /**
  * _strlen - sdfghj
@@ -28,6 +28,7 @@ char *_strcpy(char *dest, const char *src)
 	for (i = 0; src[i]; i++)
 		dest[i] = src[i];
 	dest[i] = '\0';
+	return (dest);
 }
 
 /**
