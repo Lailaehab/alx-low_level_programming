@@ -37,7 +37,7 @@ void format_float(char *separator, va_list ap)
  */
 void format_string(char *separator, va_list ap)
 {
-	char *str = var_arg(ap, char *);
+	char *str = va_arg(ap, char *);
 
 	switch ((int)(!str))
 	{
@@ -51,8 +51,6 @@ void format_string(char *separator, va_list ap)
 /**
  * print_all - rtgyjk
  * @format: dfgh
- * @...: sdfg
- * Return: dfgh
  */
 void print_all(const char * const format, ...)
 {
