@@ -1,6 +1,5 @@
 #include "lists.h"
 
-
 /**
  * _strlen - dfghjk
  * @s: sdfgh
@@ -14,6 +13,7 @@ int _strlen(char *s)
 		return (0);
 	while (*s++)
 		i++;
+
 	return (i);
 }
 
